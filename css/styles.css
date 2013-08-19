@@ -1,0 +1,51 @@
+svg {
+	font: 10px sans-serif;
+	cursor: pointer;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+text {
+	font: 10px sans-serif;
+}
+
+.background {
+	pointer-events: all;
+}
+
+#chart4 {
+	margin-left: -40px;
+	height: 506px;
+}
+
+#chart4 .background {
+	;
+}
+
+#chart4 .dot {
+	stroke: #000;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #fff;
+	shape-rendering: crispEdges;
+}
+
+.axis line, .axis path {
+	stroke: none;
+}
+
+.line {
+	stroke: #FFF;
+	fill: none;
+	stroke-width: 0.5px;
+}
+
+.emphasis.active {
+	stroke: red;
+}
